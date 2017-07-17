@@ -1,3 +1,5 @@
+Ant-design-mobile 的坑
+
 问题场景：
 猿宏本地开发时一切正常，后来使用 Jenkins 发布到测试环境时，被测试发现Ant-design-mobile 的 Toast 控件（之后简称为Toast）出了样式的问题（图1）。排除发现，导致样式异样的真凶是结构中多了一个 **<span>** 标签，使AntD的样式出了问题。（图1），而官网正常的结构是图2 这样的
 <img src="/uploads/default/original/1X/63b5c43b433280fdc2cc48a4e9279709b500bdf8.png" width="590" height="372">
